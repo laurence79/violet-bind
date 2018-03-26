@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VioletBind", "VioletBind\VioletBind.csproj", "{454E6CFF-D9F0-4D9F-916E-17D2503380C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VioletBind.UnitTests", "VioletBind.UnitTests\VioletBind.UnitTests.csproj", "{5D869857-6316-408B-9ECC-BDA9571D15B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39F76141-A1C6-4CDB-B920-2095389200D8}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454E6CFF-D9F0-4D9F-916E-17D2503380C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454E6CFF-D9F0-4D9F-916E-17D2503380C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454E6CFF-D9F0-4D9F-916E-17D2503380C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454E6CFF-D9F0-4D9F-916E-17D2503380C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D869857-6316-408B-9ECC-BDA9571D15B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D869857-6316-408B-9ECC-BDA9571D15B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D869857-6316-408B-9ECC-BDA9571D15B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D869857-6316-408B-9ECC-BDA9571D15B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

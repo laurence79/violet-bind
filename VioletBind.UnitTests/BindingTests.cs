@@ -29,6 +29,19 @@ namespace VioletBind.UnitTests
                 Assert.Equal(30, thing.Total);
             }
         }
+
+        [Fact]
+        public void Bindings_IgnoresUnobservedProperty()
+        {
+            using (var thing = new Thing2())
+            {
+                thing.Subthing1.Quantity = 10;
+                thing.Subthing2.Quantity = 20;
+                thing.Subthing3 = new SubThing();
+
+                Assert.Equal(30, thing.Total);
+            }
+        }
     }
 
     public class Thing : IDisposable, INotifyPropertyChanged
@@ -65,6 +78,7 @@ namespace VioletBind.UnitTests
     {
         public SubThing Subthing1 { get; set; }
         public SubThing Subthing2 { get; set; }
+        public SubThing Subthing3 { get; set; }
         public int Total { get; set; }
 
         public Thing2()

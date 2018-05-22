@@ -137,7 +137,7 @@ namespace VioletBind
         {
             var index = FindIndexOfObjectInPropertyPath(sender);
 
-            if (e.PropertyName == _propertyPath[index.Value].Name)
+            if (index.HasValue && e.PropertyName == _propertyPath[index.Value].Name)
             {
                 ObserveFromIndex(index.Value + 1);
                 Changed?.Invoke(this, new EventArgs());

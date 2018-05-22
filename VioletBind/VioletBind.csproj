@@ -10,8 +10,8 @@
     <Title>Violet Bind</Title>
     <Description>C# Bindings over complex property paths</Description>
     <PackageId>VioletBind</PackageId>
-    <PackageVersion>1.0</PackageVersion>
-    <ReleaseVersion>1.0</ReleaseVersion>
+    <PackageVersion>1.2.0</PackageVersion>
+    <ReleaseVersion>1.2.0</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 

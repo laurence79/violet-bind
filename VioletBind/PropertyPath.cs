@@ -29,6 +29,12 @@ namespace VioletBind
         public int Count => _propertyInfos.Count;
 
         /// <summary>
+        /// Gets the type of the object with contains this property path.
+        /// </summary>
+        /// <value>The type of the declaring.</value>
+        public Type DeclaringType => _propertyInfos.FirstOrDefault()?.DeclaringType;
+
+        /// <summary>
         /// Gets the <see cref="VioletBind.PropertyPath"/> at the specified index.
         /// </summary>
         /// <param name="index">Index.</param>
